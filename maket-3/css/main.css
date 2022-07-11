@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maket {
+    background: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 375px;
+    background-color: #F3F3F3;
+    padding: 100px 28px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 41px;
+color: #121212;
+margin-bottom: 35px;
+
+}
+.top,
+.bottom {
+    position: absolute;
+}
+
+.top {
+    top: -53px;
+}
+
+.bottom {
+    bottom: -233px;
+}
+
+.form input {
+    background: #DEDEDE;
+    border-radius: 10px;
+    border: 0;
+    padding: 14px 17px;
+    min-width: 320px;
+    margin-bottom: 25px;
+} 
+input:last-child {
+    background: url(../img/eye.png) no-repeat center right #DEDEDE;
+    border-radius: 10px;
+    border: 0;
+    padding: 14px 17px;
+    min-width: 320px;
+    margin-bottom: 25px;
+    background-position: 95% 50%;
+}
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+ p {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #989898;
+}
+
+.link {
+    color:#272730;
+    text-decoration: none;
+}
+.checkbox .check__input{
+    appearance: none;
+    display: none;
+}
+
+ .check__box {
+    border: 1px solid black;
+    width: 20px;
+    height: 18px;
+}
+.check__input:checked + .check__box{
+    background: url(../img/Vector.png) no-repeat  center #DEDEDE;
+    width: 20px;
+    height: 19px;
+    border: 1px solid #DEDEDE;
+}
+
+.entry {
+    display: flex;
+    background: #121212;
+    border-radius: 14px;
+    padding: 14px 85px;
+    border: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.agreement {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.media {
+    margin-top: 40px;
+}
+
+.media a   {
+    background: #121212;
+    border-radius: 6px;
+    padding: 15px 23px;
+    
+}
+
+button img {
+    align-items: center;
+}

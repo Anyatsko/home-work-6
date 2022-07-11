@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display:inline-block;
+    min-width: 380px;
+    margin: 0 auto;
+    background: #FCFCFC;
+    border-radius: 40px;
+   
+}
+
+.container_welcome {
+    padding-top: 190px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #252525;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;    
+    background-color: #282828;
+    padding: 30px;
+}
+
+.welcome .adventure {
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #252525;
+    margin-bottom: 5px;
+}
+
+.welcome p {
+    margin-bottom: 60px;
+}
+
+.welcome .additional {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome .border {
+    display: flex;
+    gap: 2px
+}
+.welcome .border_black {
+    background: #2F2E41;
+    border-radius: 10px;
+    width: 16px;
+    height: 6px;
+}
+
+.border_yellow {
+    background-color: #FFC33E;
+    border-radius: 10px;
+    width: 16px;
+    height: 6px;
+}
+.welcome button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #252525;
+    border: 0;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+/* input */
+
+.container_input {
+    padding: 30px 0 30px 30px;
+}
+.input-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -130px;
+}
+
+.input-header h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #252525;
+}
+
+.input-header p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #252525;
+
+}
+.input-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: -130px;
+}
+input {
+    border-radius: 10px;
+    border: 0;
+    max-width: 330px;
+    height: 50px;
+    padding: 22px 16px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.input .input_1{
+    background: url(../img/name.png) no-repeat center right rgba(196, 196, 196, 0.2);
+    background-position: 95% 50%;
+}
+
+.input .input_2{
+    background: url(../img/mail.png) no-repeat center right rgba(196, 196, 196, 0.2);
+    background-position: 95% 50%;
+}
+
+.input .input_3{
+    background: url(../img/phone.png) no-repeat center right rgba(196, 196, 196, 0.2);
+    background-position: 95% 50%;
+}
+
+.input .input_4{
+    background: url(../img/lock.png) no-repeat center right rgba(196, 196, 196, 0.2);
+    background-position: 95% 50%;
+}
+
+.privacy {
+    position: relative;
+    top: -115px;
+}
+
+.privacy .checkbox {
+    width: 10px;
+    height: 10px;
+}
+
+.privacy p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10px;
+    color: #252525;
+    display: inline-block;
+}
+
+.privacy a {
+    color:#FFC33E;
+}
+
+

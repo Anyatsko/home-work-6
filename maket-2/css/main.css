@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 1500px;
+    background: linear-gradient(225deg, rgb(105, 137, 174) 3%, rgb(16, 143, 98) 43%, rgb(48, 48, 48) 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 186px ;
+    padding-bottom: 400px;
+}
+
+.logo {
+    width: 170px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+color: rgba(255, 255, 255, 0.6);
+margin-bottom: 100px;
+}
+
+.input {
+    background: rgba(255, 255, 255, 0.2);
+border: 1px solid rgba(255, 255, 255, 0.48);
+border-radius: 30px;
+padding: 30px 40px;
+margin-bottom: 230px;
+}
+
+.input p {
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.input .subtitle  {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.input input {
+    background: url(../img/Vecto.png) no-repeat center right ;    
+    border: 1px solid rgba(255, 255, 255, 0.48);
+    border-radius: 15px;
+    width: 707px;
+    height: 58px;
+    background-position: 95% 49%;
+    
+    padding: 10px;    
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.48);
+    border-radius: 30px;
+    padding: 15px 30px;
+    position: relative;
+    left: 455px;
+}
+
+button .social  {
+    height: 16px;
+    width: 16px;
+}
+
+button a {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+margin-right: 10px;
+}
+
+
